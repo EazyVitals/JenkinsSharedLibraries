@@ -1,6 +1,6 @@
 def call(String mavenGoal){
   
-  if ("${mavenGoal}" == "test")
+  if ("${mavenGoal}" == "goal")
      {
        sh "mvn clean package"
      }
